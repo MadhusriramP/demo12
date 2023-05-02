@@ -246,7 +246,7 @@ marquee img {
     line-height:42px;
 }
 .dotted-wor{
-    width:60%;
+    width:65%;
 }
 .rgt-side2{
     margin-top:10%;
@@ -286,7 +286,16 @@ marquee img {
     background-size: cover;
     padding:4%;
     color: #fff;
-    /* position:absolute; */
+    position:absolute;
+    z-index: 1;
+    left:5%;
+    margin-top:-2%;
+}
+.bg-im2{
+    display: none;
+}
+#home-footer .row{
+    padding-top:3%;
 }
 /* instrument */
 .in-1{
@@ -636,6 +645,12 @@ width:50%;
 .thrr-bg-par{
     margin-top:10%;
 }
+#bg-linee{
+    background-image:url(../Homepage/bgline.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:contain;
+}
 
 @media (min-width:1300px) and (max-width:1490px){
     .bottmsup li a {
@@ -690,14 +705,14 @@ width:50%;
         font-size:13px;
     }
     .bottmsup li a {
-        font-size:9px;
+        font-size:11px;
         margin-left: -19%!important;
         color: #fff;
         list-style: none;
         text-decoration: none;
     }
     #img-s img{
-        padding:2px 12px;
+        padding:2px 17px;
     } 
     .rgt-side2 p{
         font-size:12px;
@@ -772,6 +787,16 @@ width:50%;
 .bg-im,.b-cd1,.bbsd{
     margin-top:10%;
 }
+.bg-im{
+    display: none;
+}
+.bg-im2{
+    background-color: #2e3192!important;
+    background-image:url(../Homepage/articlev2.png)!important;
+    display: contents;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
 /* instrument */
 .in-1{
     background-image:url("../Instrumentpage/Rectangle10h.png");
@@ -814,5 +839,8 @@ width:50%;
 }
 #drk-blu2{
     line-height:16px;
+}
+#bg-linee{
+    background-image: none!important;
 }
 }
