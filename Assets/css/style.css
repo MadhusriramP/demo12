@@ -1,0 +1,818 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+@keyframes smoothScroll {
+    0% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+/* header */
+.nav-link {
+    color: #000 !important;
+    font-size: 15px !important;
+}
+.nav-link-new {
+    color:#2e3192!important;
+    font-weight: 500 !important;
+}
+.navbar-bg {
+    background-color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.navbar-bg2 {
+    background-color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: all .2s ease-in-out;
+    animation: smoothScroll 1s forwards;
+}
+#navbar-toggle-btn{
+    color: #2e3192!important;
+  }
+.navbar-brand {
+    margin-left:38px;
+  }
+.navss li {
+    padding:2px 32px;}
+.lolo{
+    color: #2e3192!important;
+    font-weight:630;
+    /* margin-left:30%; */
+}
+#su{
+    padding:3px 20px;
+    background-color:#2e3192;
+    border-radius:10px;
+    color:#fff;
+}
+#su-1{
+    border:1px solid #000;
+    padding-left:20px;
+    border-radius:10px;
+    padding-right:20px;
+    margin-left: 10px;
+    color:#000;
+}
+#su:hover{
+    background-color:#fff!important;
+    color: #2e3192!important;
+    border:1px solid #2e3192!important;
+}
+#su-1:hover{
+    background-color:#2e3192!important;
+    color:#fff!important;
+    border:1px solid #fff!important;
+}
+#reg-log{
+    margin-right:1%;
+}
+/* footer */
+.bottmsup p{
+    color:#a4a9ae;
+}
+.bottmsup h1,.footer-head,.loretxt h6{
+    color:#fff;
+}
+.bottmsup{
+    background-color: #2e3192;
+}
+.bottmsup hr{
+    width:60%!important;
+}
+.bottmsup li{
+    list-style: none;  
+}
+.bottmsup li a{
+    font-size:13px;
+    margin-left: -19%!important;
+    color:#fff;
+    list-style: none;
+    text-decoration: none;
+}
+.footer-head{
+    color: #a4a9ae;
+}
+#in-jan{
+    margin-top:-2%;
+    margin-left:-7%;
+    color: #fff!important;
+    width:35%!important;
+    background-color:#2e3192!important;
+}
+#inputGroupSelect01{
+    border:none!important;
+    color: #fff!important;
+    background-color:#2e3192!important;
+}
+.loretxt{
+    margin-top:6%;
+}
+/* home*/
+.sec-1{
+    background-image:url("../Homepage/Rectangle910.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 505px;
+}
+.rgt-side{
+    margin-top:22%;
+    color:#fff;
+}
+#opa,.dow-bt{
+    background-color: #2e3192!important;
+    color: #fff !important;
+}
+.rgt-side a{
+    margin-left:2%;
+    text-decoration: none;
+    color:#fff;
+}
+#opa:hover,.dow-bt:hover{
+    background-color: #fff!important;
+    color: #2e3192!important;
+    border:1px solid #2e3192!important;
+}
+#exp:hover{
+border-bottom:2px solid #2e3192!important;
+}
+.bank1{
+    height:35px;
+}
+.bank2{
+    height:35px;
+}
+.bank3{
+    height:35px;
+}
+.bank4{
+    height:35px;
+}
+.bank5{
+    height:35px;
+}
+.bank6{
+    height:35px;
+}
+.bank7{
+height:35px;}
+.bank8{
+    height:52px;
+}
+.bank9{
+    height:62px;
+}
+#img-s img{
+    padding:2px 32px;
+}
+#home-mobview{
+    display:none!important;
+}
+marquee img {
+    padding:1px 22px;
+}
+.minlog {
+    margin-top: 14px;
+}
+#sec-3 p{
+    font-size:13px;
+}
+#sec-3 h6{
+    color: #2e3192;
+}
+.sec-4a p{
+    color:#a4a9ae;
+}
+.yel-que{
+    margin-left:-42%!important;
+    width:55%;
+}
+.slp{
+    background-color: #2e3192!important;
+    color:#fff!important;
+    padding: 2% 18%!important
+}
+.cd1{
+    width:22rem!important;
+    background-color:#e1e1fc!important;
+}
+.cd1:hover{
+    transform:scale(1.2);
+}
+.slp:hover{
+    background-color:#fff!important;
+    color:#2e3192!important;
+    border:2px solid #2e3192!important;
+}
+.fa-chevron-right{
+    font-weight:300;
+    color:#2e3192;
+}
+.wind{
+    font-size:12px;
+    margin-left:1%;
+}
+.tw-mo{
+    width:50%;
+}
+#dw-arr-ln:hover hr{
+    color: #2e3192!important;
+}
+#dw-arr-ln:hover p,.ava-on img:hover,.to-ig{
+    cursor:pointer;
+}
+.prbg{
+    background-color: #2e3192;
+    color: #fff;
+    border-bottom:2px solid #fff;
+}
+#mrg-lft{
+    padding-left:3.5%;
+}
+#lgline{
+    padding-top:3%!important;
+    border-bottom:2px solid #2e3192!important;
+}
+.ddimg{
+    margin-top: 12%;
+    width: 30%;
+}
+#ln-he{
+    line-height:42px;
+}
+.dotted-wor{
+    width:60%;
+}
+.rgt-side2{
+    margin-top:10%;
+    color:#000;
+}
+.rgt-side2 p{
+    font-size:16px;
+}
+.rgt-side2 a{
+    margin-left:2%;
+    color:#2e3192;
+    text-decoration:none;
+}
+.gr01 {
+    width: 14%;
+    margin-bottom: -15%;
+}
+.arr-ow{
+    width:85%;
+}
+.z-2{
+    margin-top:45%;
+}
+.gre-bt{
+    border-radius:0px!important;
+    background-color:#3ab549!important;
+    color: #fff!important;
+    padding:1% 7%!important;
+}
+.gre-bt:hover{
+    background-color:#fff!important;
+    color: #3ab549!important;
+    border:1px solid #3ab549!important;
+}
+.bg-im{
+    background-image:url("../Homepage/articlev2.png");
+    background-size: cover;
+    padding:4%;
+    color: #fff;
+    /* position:absolute; */
+}
+/* instrument */
+.in-1{
+    background-image:url("../Instrumentpage/Rectangle10h.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:530px;
+}
+.inr-1{
+    color: #fff;
+    margin-top: 25%;
+    padding-left:8%;
+}
+.fhp{
+    font-size:13px;
+}
+#drk-blu,#drk-blu2{
+    background-color: #2e3192;
+    color: #fff;
+}
+#drk-blu2{
+    line-height: 45px;
+}
+#bor-drk td{
+    border:2px solid #000!important;
+}
+#pu-bg{
+    background-color:#e1e1fc;
+}
+#drk-blu td{
+    border:2px solid #fff!important; 
+}
+/* account*/
+.ac-1{
+    background-image:url("../Accounts/recc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height:520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.acc-p{
+    font-size:12px;
+}
+.b-cd1{
+    height:17rem!important;
+    padding-bottom:10%!important;
+    width:25rem;
+    padding: 30px 20px;
+   color: #000;
+   border:1px solid #2e3192!important;
+}
+.b-cd1:hover{
+    background-image:linear-gradient(125deg,#fff,#4346b2,#2e3192);
+    color: #fff;
+    border:1px solid #fff!important;
+}
+.vt-1 {
+    margin-top: 7%;
+    margin-left: 5%;
+    width:26px;
+}
+.lg-p{
+    margin-left:10%;
+}
+.sell{
+    margin-top:2%;
+    font-weight:bold;
+}
+.ac-rg{
+    margin-top:9%;
+}
+.ac-mob{
+    width:65%;
+}
+.card-bx{
+    width:15rem;
+    border:1px solid #2e3192;
+    border-radius:10px;
+    padding:4% 4%;
+}
+.img-jv{
+    margin-left: 16%;
+    width: 60%;
+    margin-bottom: 14px;
+}
+.crd-pa small,.trad-b small,.tgt small{
+    font-size:14px;
+}
+.ac-img4{
+    width:62%;
+}
+.sm-gd {
+    width:35%;
+}
+.tgt {
+    margin-left: -5%;
+}
+.ac-sec-4 a{
+    text-decoration: none;
+    color: #2e3192;
+    margin-left:5.5%;
+}
+.get-all{
+    margin-top:8%;
+}
+.ac-img-2{
+    width:62%;
+}
+.accd{
+    width:88%!important;
+}
+.accordion-button{
+    border:1px solid #2e3192!important;
+    background-color:#fff!important;
+    color:#000!important;
+    border-radius:5px!important;
+}
+#ac-2,#acb-2,#ach-2{
+    border-radius:0px!important;
+    border-right:none!important;
+    border-top:none!important;
+    border-left:none!important;
+    border-bottom:1px solid #2e3192!important;
+}
+.accd .accordion-button::after {
+    background-image: url(../About/plus-solid.svg);
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+    fill: #2e3192 !important;
+}
+.accd .accordion-button:not(.collapsed)::after {
+    background-image: url(../About/minus-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+    fill: #2e3192 !important;
+}
+.accordion-item{
+    border-radius:4px!important;
+    border:1px solid #2e3192!important;
+}
+.accordion-body{
+    background-color: #fff!important;
+    color:#b2b7bb!important;
+}
+.abu-acc-p{
+    color:#b2b7bb!important;
+}
+.news-rea{
+    width:85%;
+}
+/* market */
+.mark-1{
+    background-image:url("../Market/Rectangle2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height:520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchof{ 
+    height:2.5rem;
+    margin: 1rem;
+    display: flex;
+    border-radius: 0.4rem;
+    width:20rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    font-size: 1.1rem;
+    border:1px solid #2e3192;
+    color:#fff;
+}
+.searchbtn3 {
+    background-color: transparent;
+    height: 3rem;
+    width: 16rem;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    margin-left: 0.8rem;
+    color:#000!important;
+}
+.searchof {
+    background-color:transparent!important;
+    transition: 0.3s ease;
+    color:#2e3192!important;
+}
+.vecx {
+   width:45%;
+}
+.for-cfd-p{
+    font-size:13px;
+}
+.ors {
+    margin-left: 2%;
+    padding: 1% 35%!important;
+    border: 2px solid #2e3192!important;
+}
+.ors:hover{
+    background-color: #2e3192!important;
+    color: #fff!important;
+}
+.bbsd {
+    box-shadow: rgb(46, 49, 146) 0px 4px 14px;
+}
+#exp-mr{
+    background-color: #fff!important;
+    color:#000!important;
+    border:1px solid #000!important;
+}
+#exp-mr:hover{
+    background-color:#000!important;
+    color:#fff!important;
+    border:1px solid #fff!important;
+}
+.mar-lap,.ab-img-2{
+    width:85%;
+}
+/* about */
+.about-1{
+    background-image:url("../About/Rectangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height:520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.who-we-are{
+    margin-top:14%;
+}
+.cntbx{
+    padding: 3.5% 0%;
+}
+#ab-pur-bg{
+    background-color:#e1e1fc;
+    color:#2e3192; 
+}
+#crdx {
+    color:#fff;
+    padding: 16% 0%;
+    height: 16rem;
+    width: 19rem;
+    background-image:linear-gradient(125deg,#fff,#4346b2,#2e3192);
+}
+.sh-img{
+    width:25%;
+}
+.sh-img2{
+    width: 35%;
+}
+#st-op{ margin-top:2%; } 
+#can-cel{ margin-top:1%; }
+#mar-bk{ margin-top:5%; }
+#mar-al{ margin-top:-4%; }
+#qu-cl{
+    margin-top:2%;
+}
+.abo-que-img{
+margin-top:14%;
+width:50%;
+}
+.ab-img-1{
+    width:80%;
+}
+/* platform */
+.plat-1{
+    background-image:url("../Platform/Rectangle4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height:520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pl-card {
+    padding: 2% 4%;
+    border: 1px solid #2e3192;
+    background-color: transparent;
+}
+.wind-img{
+    margin-top:12%;
+}
+.and-img{
+    margin-top:27%;
+    width:100%;
+}
+.app-img{
+    margin-top:12%;
+    width:80%;
+}
+#cd-p{
+    margin-left:13%;
+}
+.dow-bt{
+    border-radius:20px!important;
+}
+.num-1{
+    background-color:#2e3192;
+    padding:8% 12%;
+    color:#fff;
+    text-align: center;
+    margin-top: 50px;
+}
+.num-2{
+    background-color:#e1e1fc;
+    padding:8% 12%;
+    color:#2e3192;
+    text-align: center;
+    margin-top: 50px; 
+}
+.lower-cont{
+    display: flex;
+    flex-direction: column;
+}
+.pla-lap-mobimg{
+    margin-top:5%;
+    width:80%;
+}
+.sm-dot{
+    width:50%;
+}
+.pl-jbk-omg{
+    width:10%;
+}
+.layer-plat-img{
+    width:65%;
+}
+.mob-pla-img{
+    width:35%;
+}
+.thrr-bg-par{
+    margin-top:10%;
+}
+
+@media (min-width:1300px) and (max-width:1490px){
+    .bottmsup li a {
+        font-size: 11px;
+        margin-left: -19%!important;
+        color: #fff;
+        list-style: none;
+        text-decoration: none;
+    }
+    #img-s img{
+        padding:2px 22px;
+    }
+    .footer-head{
+        font-size:16px;
+    }
+    .rgt-side2 p{
+        font-size:14px;
+    }
+    #sec-3 p {
+        font-size: 12px;
+    }
+     /* instrument */
+     .inr-1{
+        color: #fff;
+        margin-top:30%;
+        padding-left:8%;
+    }
+    /* account */
+    .b-cd1 {
+        height: 17rem!important;
+        padding-bottom: 10%!important;
+        width: 22rem;
+        padding: 25px 1px;
+        color: #000;
+        border:1px solid #2e3192!important;
+    }
+    .b-cd1:hover{
+        background-image:linear-gradient(125deg,#fff,#4346b2,#2e3192);
+        color: #fff;
+        border:1px solid #fff!important;
+    }
+    .ac-rg small,.crd-pa small,.trad-b small,.tgt small,.get-all small{
+        font-size:12px;
+    }
+    /* about */
+    .car-pa{
+        font-size:14px;
+    }
+}
+@media (min-width:1100px) and (max-width:1295px){
+    .footer-head{
+        font-size:13px;
+    }
+    .bottmsup li a {
+        font-size:9px;
+        margin-left: -19%!important;
+        color: #fff;
+        list-style: none;
+        text-decoration: none;
+    }
+    #img-s img{
+        padding:2px 12px;
+    } 
+    .rgt-side2 p{
+        font-size:12px;
+    }
+    #sec-3 p {
+        font-size:10px;
+    }
+    /* instrument */
+    .inr-1{
+        color: #fff;
+        margin-top:30%;
+        padding-left:8%;
+    }
+    /* account */
+    .b-cd1 {
+        height: 17rem!important;
+        padding-bottom: 10%!important;
+        width: 22rem;
+        padding: 12px 3px;
+        color: #000;
+   border:1px solid #2e3192!important;
+    }
+    .b-cd1:hover{
+        background-image:linear-gradient(125deg,#fff,#4346b2,#2e3192);
+        color: #fff;
+        border:1px solid #fff!important;
+    }
+    .ac-rg small,.crd-pa small,.trad-b small,.tgt small,.get-all small{
+        font-size:11.5px;
+    }
+    /* about */
+    .car-pa{
+        font-size:14px;
+    }
+}
+
+@media(max-width:540px){
+    #navbar-toggle-btn {
+        margin-right:1.8%;
+        color:#2e3192!important;
+        border:1px solid #2e3192;
+    }
+#home-lapview{
+    display:none!important;
+}
+#home-mobview{
+    display:contents!important;
+}
+#home-mobview img,.ac-img-2{
+    margin-bottom:10%;
+}
+.bottmsup li a{
+    font-size:18px;
+    margin-left:0%!important;
+    color:#fff;
+    list-style: none;
+    text-decoration: none;
+}
+.footer-head{
+    margin-top:3%;
+    font-size:20px;
+}
+.cd1,.card-bx,.vecx,#crdx{
+    margin-bottom:10%;
+}
+.dotted-wor{
+    margin-top:-35%;
+}
+.z-2,.z-3{
+    margin-top:5%;
+}
+.bg-im,.b-cd1,.bbsd{
+    margin-top:10%;
+}
+/* instrument */
+.in-1{
+    background-image:url("../Instrumentpage/Rectangle10h.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:auto;
+}
+.inr-1{
+    color: #fff;
+    margin-top:15%;
+    padding-left:2%;
+}
+#pad-up {
+    padding: 7% 0%;
+}
+#pad-up2{
+    padding:2% 0%;
+}
+#mrg-lft {
+    padding-left: 7.5%;
+}
+/* account */
+.b-cd1{
+    height:20rem!important;
+    width:21rem!important;
+}
+#acc-rev-row,#abo-rev-row{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#st-op,#can-cel,#mar-bk,#mar-al,#qu-cl{
+    margin-top:2%;
+}
+.accd{
+    width:98%!important;
+}
+/* platform */
+.pl-jbk-omg{
+    width:50%;
+}
+#drk-blu2{
+    line-height:16px;
+}
+}
